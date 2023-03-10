@@ -1,0 +1,183 @@
+#introduction1>#introduction2{
+    width: 72%;
+    margin: 70px auto;
+}
+
+
+#introduction1>#introduction2>#introduction3>h1{
+    font-size: 45px;
+    background-color: #ccc;
+    text-indent: 20px;
+    line-height:100px;
+    font-weight: bold;
+}
+
+
+#introduction1>#introduction2>#intro4{
+    margin-left: 335px;
+}
+
+#introduction1>#introduction2>#intro4>dl{
+margin: 30px 50px;
+}
+
+#introduction1>#introduction2>#intro4>dl>dt{
+    font-size: 20px;
+    color: #717171;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#introduction1>#introduction2>#intro4>dl>dd:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+
+#introduction1>#introduction2>#intro4>dl>dd:nth-child(3){
+    font-size: 14px;
+    color: deepskyblue;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+
+
+
+
+#introduction1>#contact{
+    width: 72%;
+    margin: 0 auto 70px;
+    padding-bottom: 8px ;   
+    background-color: #ccc;
+}
+
+
+#introduction1>#contact>#contact2>h1{
+    background-color: #ccc;
+    text-indent: 20px;
+    line-height:120px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 1px solid #abaaaa;
+}
+
+
+
+#introduction1>#contact>#contact3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid #abaaaa;
+
+}
+
+#introduction1>#contact>#contact3>#contact4{
+    display: flex;
+}
+
+
+
+#introduction1>#contact>#contact3>#contact4>figure{
+display: flex;
+margin: 20px 50px;
+}
+
+#introduction1>#contact>#contact3>#contact4>figure>div{
+font-size: 30px;
+margin-right: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#introduction1>#contact>#contact3{
+    background-color: #ccc;
+}
+
+
+#introduction1>#contact>#contact3>#contact4>figure>figcaption>dl>dt{
+font-size: 15px;
+font-weight: bold;
+display: flex;
+align-items: center;
+margin-bottom: 8px;
+}
+#introduction1>#contact>#contact3>#contact4>figure>figcaption>dl>dd{
+    color: #717171;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+#introduction1>#contact>#imgform{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+#introduction1>#contact>#imgform>#form{
+    box-sizing: border-box;
+    width: 446px;
+    background-color: white;
+    padding: 30px 25px 19px 20px;
+    border: 1px solid #ccc;
+    margin:60px 0;
+}
+
+#introduction1>#contact>#imgform>#form ul>li{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27px;
+}
+
+#introduction1>#contact>#imgform>#form ul>li>label{
+    font-size: 14px;
+    margin-bottom: 13px;
+    color: #717171;
+
+}
+
+#introduction1>#contact>#imgform>#form ul>li>input{
+    border: none;
+    box-sizing: border-box;
+    width: 401px;
+    line-height: 44px;
+    background-color: #eae4e4;
+
+}
+
+
+#introduction1>#contact>#imgform>#form ul>li>textarea{
+    border: none;
+    box-sizing: border-box;
+    width: 401px;
+    height: 121px;
+    background-color: #eae4e4;
+
+}
+
+#introduction1>#contact>#imgform>#form p>input{
+    border: none;
+    width: 401px;
+    height: 43px;
+    color: #717171;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+
+

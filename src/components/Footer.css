@@ -1,0 +1,18 @@
+footer{
+    background-color: rgba(0, 0,0,0.7);
+    padding: 20px 0 70px;
+    color: rgb(225, 223, 223);
+    font-weight: bold;
+}
+
+footer>div{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div>div>a>img{
+margin: 0 10px;
+}

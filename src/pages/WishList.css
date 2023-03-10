@@ -1,0 +1,99 @@
+.wishlist>#wishlist2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.wishlist>#wishlist2>h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 185px;
+    background-color: antiquewhite;
+}
+
+
+
+.wishlist>#wishlist2>button{
+border: none;
+width: 100px;
+height: 50px;
+}
+
+
+.wishlist>#wishlist2>ul>li{
+}
+
+.wishlist>#wishlist2>ul>li>p>button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.wishlist>#wishlist2>ul>li>figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist>#wishlist2>ul>li>figure>figcaption{
+    display: flex;
+
+}
+
+.wishlist>#wishlist2>ul>li>figure>figcaption>dl{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.wishlist>#wishlist2>ul>li>figure>figcaption>dl>dt{
+margin-right: 50px;
+}
+.wishlist>#wishlist2>ul>li>figure>figcaption>dl>dd{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.wishlist>#wishlist2>ul>li>figure>figcaption>a>button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.wishlist>#wishlist2>#wishlistEmpty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.wishlist>#wishlist2>#wishlistEmpty>div{
+    font-size: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.wishlist>#wishlist2>#wishlistEmpty>p{
+    text-align: center;
+    line-height: 1.5em;
+    color: #787676;
+    font-weight: bold;
+}
+
+.wishlist>#wishlist2>#wishlistEmpty>p>span{
+    font-size: 20px;
+}

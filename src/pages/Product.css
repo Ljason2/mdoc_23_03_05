@@ -1,0 +1,113 @@
+
+
+#productitem>#productitem2{
+    margin: 0 auto;
+    width: 60%;
+    padding: 100px 0;
+}
+
+
+
+#productitem>#productitem2>figure{
+    display: flex;
+    margin-bottom:123px;
+}
+
+
+#productitem>#productitem2>figure>figcaption{
+}
+
+
+#productitem>#productitem2>figure>figcaption>dl{
+    margin-top: 141px;
+}
+
+#productitem>#productitem2>figure>figcaption>dl>dt{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+
+#productitem>#productitem2>figure>figcaption>dl>dd{
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+
+#productitem>#productitem2>#detailReview{
+display:flex ;
+justify-content: space-between;
+background-color: #ccc;
+margin-bottom: 100px;
+padding: 40px;
+}
+
+#productitem>#productitem2>#detailReview>dl:first-child{
+    width: 40%;
+}
+
+#productitem>#productitem2>#detailReview>dl:first-child>dt{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#productitem>#productitem2>#detailReview>dl:first-child>dd{
+    line-height: 1.5em;
+}
+
+
+#productitem>#productitem2>#detailReview>dl:last-child{
+    width: 40%;
+
+}
+
+
+#productitem>#productitem2>#detailReview>dl:last-child>dt{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+
+}
+
+#productitem>#productitem2>#detailReview>dl:last-child>dd{
+    line-height: 1.5em;
+}
+
+
+#productitem>#productitem2>.topic{
+display: flex;
+justify-content: space-between;
+}
+
+
+#productitem>#productitem2>.topic>h1{
+    color: white;
+    width: 242px;
+    height: 242px;
+    font-size: 40px;
+    background-color:brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+#productitem>#productitem2>.topic>a>figure{
+    margin: 0 20px;
+}
+
+#productitem>#productitem2>.topic>a>figure>figcaption>dl>dt{
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+#productitem>#productitem2>.topic>a>figure>figcaption>dl>dd{
+    text-align: center;
+    color:black;
+}

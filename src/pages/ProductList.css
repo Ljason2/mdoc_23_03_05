@@ -1,0 +1,145 @@
+#product{}
+
+#product>#product2{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#product>#product2>h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 39px;
+}
+
+
+#product>#product2>form{
+    margin-bottom: 39px;
+}
+
+#product>#product2>form>input{
+    width: 17%;
+    height: 36px;
+}
+
+#product>#product2>form>button{
+    width: 5%;
+    height: 41px;
+    cursor: pointer;
+}
+
+
+
+#product>#product2>.container{
+    margin-bottom: 150px;
+}
+
+
+
+#product>#product2>.container>ul{
+    display: flex;
+    margin-bottom: 39px;
+    border-bottom: 1px solid rgb(26, 191, 203);
+    padding-bottom: 40px;
+}
+
+#product>#product2>.container>ul>li{
+margin: 0 20px 0 0;
+background-color: #ccc;
+width: 80px;
+line-height: 25px;
+text-align: center;
+font-weight: bold;
+border-radius: 6px;
+cursor: pointer;
+}
+
+#product>#product2>.container>p{
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 46px;
+    margin-bottom: 32px;
+
+}
+
+#product>#product2>.container>p>span{
+    color: blue;
+}
+
+
+#product>#product2>.container>#searchNo{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 100px;
+}
+
+
+
+#product>#product2>.container>#productList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product>#product2>.container>#productList>figure{
+    width: calc(50% - 1em);
+    margin: 0 0.5em 1em;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#product>#product2>.container>#productList>figure>figcaption>dl>dt{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#product>#product2>.container>#productList>figure>figcaption>dl>dd{
+    margin-bottom: 25px;
+    color: #888;
+}
+
+#product>#product2>.container>#productList>figure>figcaption>dl>dd:nth-child(2){
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product>#product2>.container>#productList>figure>figcaption>a>button{
+    width: 100%;
+    height: 41px;
+    font-weight: bold;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+
+
+#product>#product2>.container>.num{
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+#product>#product2>.container>.num ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+#product>#product2>.container>.num li{
+    margin: 0 10px;
+
+}
+
+#product>#product2>.container>.num li span{
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}

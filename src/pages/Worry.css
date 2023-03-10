@@ -1,0 +1,132 @@
+
+
+
+#questionAnswer>#questionAnswer2{
+    width: 49%;
+    margin: 0 auto;
+}
+
+
+#questionAnswer>#questionAnswer2>h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 123px;
+    font-weight: bold;
+}
+
+
+
+#questionAnswer>#questionAnswer2>figure{
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dd:nth-child(3){
+border-bottom: 1px solid #ccc;
+padding-bottom: 50px;
+}
+
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dd:nth-child(4){
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dd:nth-child(5){
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    line-height: 41px;
+    border: 1px solid #717171;
+    margin-bottom: 50px;
+}
+
+#questionAnswer>#questionAnswer2>figure>figcaption>dl>dd:nth-child(5)>a{
+    color: #717171;
+    display: block;
+}   
+
+
+#questionAnswer>#questionAnswer2>.answer>h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 123px;
+    font-weight: bold;
+}
+
+
+#questionAnswer>#questionAnswer2>.answer>dl{
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+#questionAnswer>#questionAnswer2>.answer>dl>dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+    color:#717171;
+}
+
+#questionAnswer>#questionAnswer2>.answer>dl>dt>span{
+    font-size: 25px;
+    color: black;
+}
+
+
+
+#questionAnswer>#questionAnswer2>.answer>dl>dd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    margin-top: 42px;
+}
+
+
+
+#questionAnswer>#questionAnswer2>#recommandProduct{
+    margin-bottom: 70px;
+}
+
+
+#questionAnswer>#questionAnswer2>#recommandProduct>h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#questionAnswer>#questionAnswer2>#recommandProduct>div{
+    display: flex;
+}
+
+#questionAnswer>#questionAnswer2>#recommandProduct>div>a>figure>figcaption>dl>dt{
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+#questionAnswer>#questionAnswer2>#recommandProduct>div>a>figure>figcaption>dl>dd{
+    text-align: center;
+    color: black;
+
+}

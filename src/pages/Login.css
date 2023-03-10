@@ -1,0 +1,174 @@
+#login>#login2{
+    width: 30%;
+    margin: 0 auto;
+    padding: 100px;    
+}
+
+
+#login>#login2>#login3{
+    border: 1px solid black;
+    padding: 50px;
+    }
+
+    #login>#login2>#login3>form>fieldset{
+        text-align: center;
+    }
+
+
+#login>#login2>#login3>form>fieldset>legend>h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #717171;
+    background-color: antiquewhite;
+}
+
+
+#login>#login2>#login3>form>fieldset>legend>h1>span{
+    margin: 0 83px;
+}
+
+#login>#login2>#login3>form>fieldset>legend>h1>span>span{
+    color: black
+}
+
+#login>#login2>#login3>form>fieldset>legend>h1>img{
+    width: 95.2px;
+    height: 56px;
+}
+
+
+#login>#login2>#login3>form>fieldset>p{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#login>#login2>#login3>form>fieldset>p>label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#login>#login2>#login3>form>fieldset>p>input{
+width: 60%;
+height: 25px;
+}
+
+
+#login>#login2>#login3>form>fieldset>#logincancel{
+    margin-top: 20px;
+}
+
+
+#login>#login2>#login3>form>fieldset>#logincancel>input{
+height: 40px;
+border: 1px solid #ccc;
+}
+
+#login>#login2>#login3>form>fieldset>#logincancel>input:first-child{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+#login>#login2>#login3>form>fieldset>#logincancel>input:last-child{
+background-color: white;
+cursor: pointer;
+
+}
+
+#login>#login2>#login3>form>fieldset>#security>label{
+    margin-bottom: 13px;
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#login>#login2>#login3>form>fieldset>#security>label>input{
+    cursor: pointer;
+}
+
+
+
+#login>#login2>#login3>form>fieldset{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+#login>#login2>#login3>#simpleLogin{
+text-align: center;
+}
+
+#login>#login2>#login3>#simpleLogin>p{
+    margin-bottom: 40px;
+}
+
+#login>#login2>#login3>#simpleLogin>div{
+    text-align: center;
+
+}
+
+#login>#login2>#login3>#simpleLogin>div>a>img{
+    margin: 2.5px 5px;
+}
+
+#login>#login2>#login3>#signup>h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #717171;
+}
+
+#login>#login2>#login3>#signup>h1>span{
+    color: black;
+    font-size: 40px;
+}
+
+
+#login>#login2>#login3>#signup>p{
+    text-align:center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #717171;
+}
+
+
+
+#login>#login2>#login3>#signup>.btns{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#login>#login2>#login3>#signup>.btns>a:first-child>button{
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    padding:15px;
+    line-height: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 130px;
+    margin-bottom: 1px;
+    margin-right: 80px;
+}
+
+#login>#login2>#login3>#signup>.btns>a:last-child>button{
+    color: #717171;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding:15px;
+    line-height: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}

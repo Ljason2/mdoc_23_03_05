@@ -1,0 +1,312 @@
+
+
+
+
+#reviewPage>#reviewPage2{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+
+#reviewPage>#reviewPage2>h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#reviewPage>#reviewPage2>h2{
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: bold;
+    color: #717171;
+    margin-bottom: 50px;
+}
+
+#reviewPage>#reviewPage2>h2>span{
+font-size: 18px;
+}
+
+
+
+#reviewPage>#reviewPage2>#appoint{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 35%;
+    margin: 0 auto 90px;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>h4{
+    font-size:30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>ul>li{
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+#reviewPage>#reviewPage2>#appoint>ul>li:last-child{
+margin-bottom: 20px;
+}
+
+#reviewPage>#reviewPage2>#appoint>ul>li>label{
+display: flex;
+margin-bottom: 10px;
+font-weight: bold;
+font-size: 20px;
+}
+
+#reviewPage>#reviewPage2>#appoint>ul>li>label>div{
+    margin-right: 5px;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>ul>li>input{
+    width: 100%;
+    border: none;
+    height: 30px;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>ul>li>select{
+    height: 32px;
+    font-weight: bold;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>ul>li>textarea{
+    width: 100%;
+    border: none;
+}
+
+#reviewPage>#reviewPage2>#appoint>p>button{
+    border: none;
+    width: 101%;
+    height: 30px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 모달 */
+
+#reviewPage>#reviewPage2>#appoint>#alert{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 416px;
+    height: 676px;
+    margin-top: -350px;
+    margin-left: -200px;
+    background-color: beige;
+    z-index: 3000;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>div{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>#closeAlert{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl{
+    width: 312px;
+    height: 287px;
+    color: black;
+    border: 5px double black;
+    margin: 0 auto;
+}
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl div{
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid black;
+
+}
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl div:last-child{
+    border: none;
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl>dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl div>dt{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+
+#reviewPage>#reviewPage2>#appoint>#alert>dl div>dd{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+
+#reviewPage>#reviewPage2>#search{
+    margin: 0 auto;
+    width: 39%;
+}
+
+#reviewPage>#reviewPage2>#search>#search2{
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#reviewPage>#reviewPage2>#search>#search2>input{
+width: 65%;
+border: 1px solid #ccc;
+line-height: 25px;
+text-indent: 20px;
+font-size: 34px;
+margin-right: 6px;
+
+}
+
+#reviewPage>#reviewPage2>#search>#search2>#searchButton{
+    line-height: 40px;
+    width: 10%; 
+    color: black;
+    height: 100%;
+    font-size: 39px;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+#reviewPage>#reviewPage2>#search>#search2>#listSort{
+    position: absolute;
+    right: 0;
+    top: 0%;
+    border: none;
+    background-color: cadetblue;
+    width: 12%; 
+    color: #fff;
+    height: 100%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#reviewPage>#reviewPage2>#search>#search2>ul{
+    position: absolute;
+    right: 1px; top: 44px;
+    width: 20%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(14, 194, 203);
+    z-index: 100;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(211, 207, 207);
+
+}
+
+#reviewPage>#reviewPage2>#search>#search2>ul>li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(14, 194, 203);
+    cursor: pointer;
+}
+
+#reviewPage>#reviewPage2>#search>#search2>ul>li:last-child{
+    border-bottom: none;
+}
+
+
+#reviewPage>#reviewPage2>#list>h1{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 50px;
+}
+
+
+#reviewPage>#reviewPage2>#list>ul>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#reviewPage>#reviewPage2>#list>ul>li>dl{
+display: flex;
+justify-content: space-around;
+}
+
+#reviewPage>#reviewPage2>#list>ul>li>dl>dt{
+margin-right: 50px;
+}
+
+#reviewPage>#reviewPage2>#list>ul>li>dl>dd{
+margin-right: 50px;
+display: flex;
+align-items: center;
+font-size: 18px;
+line-height: 1.2em;
+}
+
+#reviewPage>#reviewPage2>#list>ul>li>dl>dd:nth-child(3){
+    width: 170px;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+#reviewPage>#reviewPage2>#list>ul>li>button{
+width: 35px;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+cursor: pointer;
+}

@@ -1,0 +1,152 @@
+
+#question>#question2{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+#question>#question2>#question2Top{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#question>#question2>#question2Top>h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+}
+
+#question>#question2>#question2Top>h1>span{
+    font-size: 20px;
+    line-height: 1.5em;
+    display: block;
+    margin-top: 30px;
+    color: #717171;
+}
+
+
+#question>#question2>#callRequest{
+    border: 1px solid #ccc;
+    margin-bottom: 80px;
+}
+
+#question>#question2>#callRequest>h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+
+#question>#question2>#callRequest>form{
+    box-sizing: border-box;
+    width: 446px;
+    background-color: white;
+    padding: 30px 25px 19px 20px;
+    margin: 0 auto 50px;
+
+}
+
+
+#question>#question2>#callRequest>form ul>li{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27px;
+
+}
+
+#question>#question2>#callRequest>form ul>li>label{
+    font-size: 14px;
+    margin-bottom: 13px;
+    color: #717171;
+
+}
+
+#question>#question2>#callRequest>form ul>li>input{
+    border: none;
+    box-sizing: border-box;
+    width: 401px;
+    line-height: 44px;
+    background-color: #eae4e4;
+}
+
+
+#question>#question2>#callRequest>form ul>li>textarea{
+    border: none;
+    box-sizing: border-box;
+    width: 401px;
+    height: 121px;
+    background-color: #eae4e4;
+
+}
+
+#question>#question2>#callRequest>form p>input{
+    border: none;
+    width: 401px;
+    height: 43px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(58, 58, 58);
+}
+
+
+#question>#question2>.container2>p{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 86px;
+text-align: center;
+}
+
+#question>#question2>.container2>div>figure{
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+#question>#question2>.container2>div>figure>figcaption>dl>dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#question>#question2>.container2>div>figure>figcaption>dl>dd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#question>#question2>.container2>div>figure>figcaption>dl>dd:nth-child(3){
+border-bottom: 1px solid #ccc;
+padding-bottom: 50px;
+}
+
+
+#question>#question2>.container2>div>figure>figcaption>dl>dd:nth-child(4){
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+
+
+#question>#question2>.container2>div>figure>figcaption>dl>dd:nth-child(5){
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    line-height: 41px;
+    border: 1px solid #717171;
+    margin-bottom: 50px;
+}
+
+#question>#question2>.container2>div>figure>figcaption>dl>dd:nth-child(5)>a{
+    color: #717171;
+    display: block;
+}   
