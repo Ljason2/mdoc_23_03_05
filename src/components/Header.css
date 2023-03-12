@@ -167,4 +167,5 @@ header>div>div>div button{
     font-size: 13px;
     width: 44px;
     height: 39px;
+    cursor: pointer;
 }

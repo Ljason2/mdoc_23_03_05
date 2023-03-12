@@ -11,7 +11,9 @@ function Aside (){
                     <fieldset>
                     <input id="emailSubscribe" type="email" 
                     placeholder="ENTER YOUR EMAIL"/>
-                    <input id="subscribeButton" type="submit" value="SUBSCRIBE" />
+                    <input id="subscribeButton" type="button" value="SUBSCRIBE" 
+                    onClick={()=> alert("로그인 후 이용해주세요")}
+                    />
                     </fieldset>
                 </form>
             </div>
