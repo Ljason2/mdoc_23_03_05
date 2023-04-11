@@ -28,7 +28,7 @@
 ## :link:배포링크
 
 - 배포방식은 AWS: S3의 배포방식을 이용하였습니다.
-- [바로가기](https://jason-mdoc-03-05.s3.amazonaws.com/index.html)
+- [바로가기](https://jason-mdoc-03-06.s3.amazonaws.com/index.html)
 
 
 ## :clipboard:프로젝트 설명
