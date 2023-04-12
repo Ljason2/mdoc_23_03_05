@@ -34,7 +34,7 @@
 ## :clipboard:프로젝트 설명
 
 ### 프로젝트 계획서
-- ppt 파일:[MdoC 프로젝트 .pdf](https://github.com/Ljason2/mdoc_23_03_05/files/11211271/MdoC.pdf)
+- [ppt 파일](https://github.com/Ljason2/mdoc_23_03_05/files/11211271/MdoC.pdf)
 
 ### 기능명
 
